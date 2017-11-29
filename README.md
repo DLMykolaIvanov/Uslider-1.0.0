@@ -25,7 +25,7 @@ var settings = {
 PLS! Not touch code after this:
 
 ```javascript
-// !!!!!!!!!!!!!!!!!!! dont touch if yo dont now JS !!!!!!!!!!!!!!!!!!!!!! //
+// !!!!!!!!!!!!!!!!!!! dont touch if you dont now JS !!!!!!!!!!!!!!!!!!!!!! //
 function maxHeightElement( element ) { // function which find max height in element
    var heightElement = 0;
    $(element).each(function() {
@@ -51,3 +51,44 @@ Now about each item separately:
 > haveImage - need if the slider contains pictures
 
 **WARNING! Do not put the number of slider elements more than half of all!**
+
+**How to use**
+1. Create the same code structure:
+
+```html
+<div class="Uslider">
+        <h2 class="Uslider-title">Uslider</h2>
+        <div class="Uslider-main">
+            <div class="Uslider_arrow">
+                <i class="demo-icon icon-left-open-big" id="Uslider-left"></i> <!-- you can use any button, he must have id "Uslider-left" -->
+                <i class="demo-icon icon-right-open-big" id="Uslider-right"></i> <!-- you can use any button, he must have id "Uslider-right" -->
+            </div>
+            <div class="container">
+                <div class="Uslider_main" id="slider_Uslider">
+                    <div class="Uslider-element">
+                        <div class="number">
+                            <p>1</p>
+                        </div>
+                    </div>
+                    
+                    ...
+                    
+                    <div class="Uslider-element">
+                        <div class="number">
+                            <p>10</p>
+                        </div>
+                    </div>
+                    
+                    ...
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+```
+
+2. Then add the required amount **Uslider-element**.
+3. Add content.
+4. Set up **settings** in file ( **b** is minify file ).
+5. Testing and using))
+
