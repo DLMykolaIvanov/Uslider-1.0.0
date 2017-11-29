@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+.Uslider {
+    padding-top: 50px;
+}
+.Uslider-main .command_main {
+    width: 100%;
+    font-size: 0;
+    position: relative;
+}
+.Uslider-main {
+    position: relative;
+}
+.command_arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.command_arrow i {
+    font-size: 60px;
+    color: #000;
+    cursor: pointer;
+    margin-top: -0.5em;
+    transition: 0.3s;
+}
+.command_arrow i:hover {
+    transform: scale(1.2);
+}
+
+.command_arrow i:first-child {
+    float: left;
+}
+.command_arrow i:last-child {
+    float: right;
+}
+
+.number {
+    padding: 50px;
+    border: 2px solid #eee;
+    margin: 0 10px;
+    text-align: center;
+}
+.number p {
+    color: #000;
+    font-size: 30px;
+}
+
+.Uslider-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
