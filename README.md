@@ -4,7 +4,8 @@ It's a simple, responsive and reliable slider that only takes 3 kb!
 
 It has flexible settings for adaptability and interactivity:
 
-```javascriptvar settings = { 
+```javascript
+var settings = { 
   step_pause: 300, 
   fadeOutElement: 300, 
   fadeInElement: 700, 
@@ -18,7 +19,18 @@ It has flexible settings for adaptability and interactivity:
   countXs: 2, 
   countMobile: 1, 
   haveImage: true 
-};```
+};
+```
+
+PLS! Not touch code after this:
+
+```javascript
+// !!!!!!!!!!!!!!!!!!! dont touch if yo dont now JS !!!!!!!!!!!!!!!!!!!!!! //
+function maxHeightElement( element ) { // function which find max height in element
+   var heightElement = 0;
+   $(element).each(function() {
+   ...
+```
 
 Now about each item separately:
 
