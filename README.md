@@ -5,19 +5,33 @@ It's a simple, responsive and reliable slider that only takes 3 kb!
 It has flexible settings for adaptability and interactivity:
 
 >    var settings = {
+
 >        step_pause: 300,
+
 >        fadeOutElement: 300,
+
 >        fadeInElement: 700,
+
 >        widthLg: '1440px',
+
 >        countLg: 6,
+
 >        widthMd: '1024px',
+
 >        countMg: 4,
+
 >        widthSm: '768px',
+
 >        countSm: 3,
+
 >        widthXs: '667px',
+
 >        countXs: 2,
+
 >        countMobile: 1,
+
 >        haveImage: true
+
 >    };
 
 Now about each item separately:
