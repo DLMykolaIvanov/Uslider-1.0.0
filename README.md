@@ -4,6 +4,8 @@ It's a simple, responsive and reliable slider that only takes 3 kb!
 
 **In work he uses jQuery.**
 
+You can see this in work:  [Uslider](https://dlmykolaivanov.github.io/Uslider-0.0.1-Alpha/).
+
 ## It has flexible settings for adaptability and interactivity:
 
 ```javascript
