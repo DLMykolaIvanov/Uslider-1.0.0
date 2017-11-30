@@ -103,22 +103,22 @@ function maxHeightElement( element ) { // function which find max height in elem
 
 ## Screenshots
 
-> For large display:
+**For large display:**
 
 ![1440](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/1440.png)
 
-> For middle display:
+**For middle display:**
 
 ![1024](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/1024.png)
 
-> For small display:
+**For small display:**
 
 ![768](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/768.png)
 
-> For extra small display:
+**For extra small display:**
 
 ![667](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/667.png)
 
-> For mobile display:
+**For mobile display:**
 
 ![480](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/480.png)
