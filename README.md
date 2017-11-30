@@ -1,5 +1,7 @@
 # Uslider
+
 It's a simple, responsive and reliable slider that only takes 3 kb!
+
 **In work he uses jQuery.**
 
 ## It has flexible settings for adaptability and interactivity:
@@ -34,21 +36,21 @@ function maxHeightElement( element ) { // function which find max height in elem
 
 ## Now about each item separately:
 
-> step_pause: 300 - this is a pause between the change of the next slider element.
+> **step_pause: 300** - this is a pause between the change of the next slider element.
 
-> fadeOutElement: 300 - time of disappearance of the slider element.
+> **fadeOutElement: 300** - time of disappearance of the slider element.
 
-> fadeInElement: 700 - time of show of the slider element.
+> **fadeInElement: 700** - time of show of the slider element.
 
-> widthLg - means that if the width is greater than 1440px ( or custom width ), the screen will show **countLg** elements of the slider.
+> **widthLg** - means that if the width is greater than 1440px ( or custom width ), the screen will show **countLg** elements of the slider.
 
-> countLg - number of elements with screen width more than **widthLg**.
+> **countLg** - number of elements with screen width more than **widthLg**.
 
-## Other similar settings work the same way
+**Other similar settings work the same way**
 
-> countMobile - number of elements with screen width less than **widthXs**.
+> **countMobile** - number of elements with screen width less than **widthXs**.
 
-> haveImage - need if the slider contains pictures
+> **haveImage** - need if the slider contains pictures
 
 **WARNING! Do not put the number of slider elements more than half of all!**
 
@@ -61,8 +63,12 @@ function maxHeightElement( element ) { // function which find max height in elem
         <h2 class="Uslider-title">Uslider</h2>
         <div class="Uslider-main">
             <div class="Uslider_arrow">
-                <i class="demo-icon icon-left-open-big" id="Uslider-left"></i> <!-- you can use any button, he must have id "Uslider-left" -->
-                <i class="demo-icon icon-right-open-big" id="Uslider-right"></i> <!-- you can use any button, he must have id "Uslider-right" -->
+                <i class="demo-icon icon-left-open-big" id="Uslider-left"></i>
+                <!-- you can use any button, he must have id "Uslider-left" -->
+                
+                <i class="demo-icon icon-right-open-big" id="Uslider-right"></i>
+                <!-- you can use any button, he must have id "Uslider-right" -->
+                
             </div>
             <div class="container">
                 <div class="Uslider_main" id="slider_Uslider">
