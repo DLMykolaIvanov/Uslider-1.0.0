@@ -9,7 +9,7 @@
 .Uslider {
     padding-top: 50px;
 }
-.Uslider-main .command_main {
+.Uslider-main .Uslider_main {
     width: 100%;
     font-size: 0;
     position: relative;
@@ -17,7 +17,7 @@
 .Uslider-main {
     position: relative;
 }
-.command_arrow {
+.Uslider_arrow {
     position: absolute;
     top: 50%;
     left: 0;
@@ -26,21 +26,21 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-.command_arrow i {
+.Uslider_arrow i {
     font-size: 60px;
     color: #000;
     cursor: pointer;
     margin-top: -0.5em;
     transition: 0.3s;
 }
-.command_arrow i:hover {
+.Uslider_arrow i:hover {
     transform: scale(1.2);
 }
 
-.command_arrow i:first-child {
+.Uslider_arrow i:first-child {
     float: left;
 }
-.command_arrow i:last-child {
+.Uslider_arrow i:last-child {
     float: right;
 }
 
