@@ -2,7 +2,7 @@
 It's a simple, responsive and reliable slider that only takes 3 kb!
 **In work he uses jQuery.**
 
-It has flexible settings for adaptability and interactivity:
+## It has flexible settings for adaptability and interactivity:
 
 ```javascript
 var settings = { 
@@ -32,7 +32,7 @@ function maxHeightElement( element ) { // function which find max height in elem
    ...
 ```
 
-Now about each item separately:
+## Now about each item separately:
 
 > step_pause: 300 - this is a pause between the change of the next slider element.
 
@@ -44,7 +44,7 @@ Now about each item separately:
 
 > countLg - number of elements with screen width more than **widthLg**.
 
-**Other similar settings work the same way**
+## Other similar settings work the same way
 
 > countMobile - number of elements with screen width less than **widthXs**.
 
@@ -52,7 +52,8 @@ Now about each item separately:
 
 **WARNING! Do not put the number of slider elements more than half of all!**
 
-**How to use**
+## How to use
+
 1. Create the same code structure:
 
 ```html
@@ -92,3 +93,24 @@ Now about each item separately:
 4. Set up **settings** in file ( **b** is minify file ).
 5. Testing and using))
 
+## Screenshots
+
+> For large display:
+
+![1440](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/1440.png)
+
+> For middle display:
+
+![1024](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/1024.png)
+
+> For small display:
+
+![768](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/768.png)
+
+> For extra small display:
+
+![667](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/667.png)
+
+> For mobile display:
+
+![480](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/480.png)
