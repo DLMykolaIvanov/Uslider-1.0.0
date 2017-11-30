@@ -1,4 +1,4 @@
-# Uslider
+# Uslider 
 
 It's a simple, responsive and reliable slider that only takes 3 kb!
 
