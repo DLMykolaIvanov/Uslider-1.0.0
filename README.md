@@ -26,7 +26,7 @@ var settings = {
 };
 ```
 
-PLS! Not touch code after this:
+PLS! Don't touch code after this:
 
 ```javascript
 // !!!!!!!!!!!!!!!!!!! dont touch if you dont now JS !!!!!!!!!!!!!!!!!!!!!! //
@@ -122,3 +122,5 @@ function maxHeightElement( element ) { // function which find max height in elem
 **For mobile display:**
 
 ![480](https://github.com/DLMykolaIvanov/Uslider-0.0.1-Alpha/blob/master/imgREADME/480.png)
+
+**If you have a problem write me: offmykolaivanov@gmail.com**
